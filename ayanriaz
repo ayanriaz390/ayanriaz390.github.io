@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Blog – Earn with Ads</title>
+
+  <!-- Google AdSense placeholder (add your code after approval) -->
+  <!--
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-XXXXXXXXXXXXXXXX",
+      enable_page_level_ads: true
+    });
+  </script>
+  -->
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #1e88e5;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+    }
+    article {
+      margin-bottom: 40px;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 15px;
+    }
+    .ad-box {
+      border: 2px dashed #ccc;
+      padding: 20px;
+      text-align: center;
+      margin: 20px 0;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Simple Blog</h1>
+  <p>Helpful articles and guides</p>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <article id="home">
+    <h2>Welcome to My Website</h2>
+    <p>This website is created to share useful information and earn money through ads.</p>
+    <p>All content on this site is original and written to help visitors learn and grow.</p>
+  </article>
+
+  <div class="ad-box">AdSense Ad Appears Here</div>
+
+  <article>
+    <h2>Why This Website Exists</h2>
+    <p>Google AdSense allows publishers to earn money by showing ads. This site provides helpful and informative content for readers.</p>
+  </article>
+
+  
+</main>
+
+<footer>
+  <p>© 2026 My Website | Privacy Policy | Contact</p>
+</footer>
+
+</body>
+</html>
